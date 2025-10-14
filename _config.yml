@@ -1,19 +1,23 @@
 title: DictaLux Support
 description: Official support site for the DictaLux language learning app.
-theme: just-the-docs
-url: https://<YOUR-USERNAME>.github.io
+
+# Your GitHub Pages URL settings
+url: https://legiodevv.github.io
 baseurl: /dictalux-support
+
+# Theme (from GitHub Pages built-in)
+remote_theme: just-the-docs/just-the-docs
+
 logo: /assets/logo.png
-color_scheme: nil
+
 aux_links:
-  Download on Google Play:
-    - https://play.google.com/store/apps/details?id=<your.package.id>
-  GitHub Repository:
-    - https://github.com/<YOUR-USERNAME>/dictalux-support
+  "Download on Google Play":
+    - https://play.google.com/store/apps/details?id=com.dictalux.app
+  "GitHub Repository":
+    - https://github.com/legiodevv/dictalux-support
+
 nav_external_links:
   - title: 🇹🇷 Türkçe
     url: /dictalux-support/tr/
   - title: 🇷🇺 Русский
     url: /dictalux-support/ru/
-plugins:
-  - jekyll-remote-theme
